@@ -6,7 +6,7 @@
 /*   By: axlamber <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 11:19:33 by axlamber          #+#    #+#             */
-/*   Updated: 2022/11/14 08:58:57 by axlamber         ###   ########.fr       */
+/*   Updated: 2022/11/15 14:20:24 by axlamber         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,6 +106,7 @@ char	*get_next_line(int fd)
 	return (line);
 }
 
+/*
 #include <stdio.h>
 int	main(int argc, char **argv)
 {
@@ -120,10 +121,9 @@ int	main(int argc, char **argv)
 		printf("Line : %s", line);
 		free(line);
 	}
-	/*
 	printf("%s", (line = get_next_line(fd)));
 	printf("%s", (line = get_next_line(fd)));
 	printf("%s", (line = get_next_line(fd)));
-	*/
 	return (0);
 }
+*/
